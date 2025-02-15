@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Check for changes in prompt files before committing
+git diff --cached --name-only | grep -E '\.github/prompts/.*\.prompt\.md$' | while read -r file; do
+  # Ensure prompt files follow a specific format or guidelines
+  if ! grep -qE '^# ' "$file"; then
+    echo "Error: $file does not follow the required format."
+    exit 1
+  fi
+done
