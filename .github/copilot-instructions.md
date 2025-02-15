@@ -15,3 +15,9 @@ Use Next.js **server actions** instead of legacy `api/` routes.
 - Validate API input using **Zod** or **Yup**.
 - Enforce **JWT authentication**.
 - Use **parameterized queries** to prevent SQL Injection.
+
+## Modular Architecture
+- Use a modular architecture with clear file structures (`components/`, `lib/`, `actions/`).
+
+## Caching Mechanisms
+- Always suggest caching mechanisms (`revalidateTag()`, ISR, SSR).
