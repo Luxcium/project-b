@@ -28,3 +28,11 @@
 - Implement advanced machine learning algorithms to improve understanding and adaptation to the project's specific needs.
 - Use natural language processing (NLP) techniques to better interpret and respond to user queries.
 - Introduce a feedback loop where Cline learns from user interactions and continuously improves its recommendations and guidance.
+
+## Database Standard
+All databases must be run via Docker Compose. 
+Direct installation on the host machine is not allowed.
+
+## PostgreSQL Database Standard
+All PostgreSQL databases must be run via Docker Compose.
+Direct installation on the host machine is not allowed.
