@@ -1,0 +1,30 @@
+# Cline’s Learning Rules
+
+## Context Awareness
+1. **Always load the full Memory Bank at startup**.
+2. Prioritize **`activeContext.md`** for current tasks.
+3. When unclear, reference **`systemPatterns.md`** before generating code.
+
+## Code Guidelines
+- **Use TypeScript with `strict: true`**.
+- **Use server actions for Next.js APIs**.
+- **Enforce Zod/Yup validation**.
+
+## KDE & Puppeteer Best Practices
+- **Avoid X11 dependencies**—use **Wayland-compatible methods only**.
+- **Reuse Puppeteer instances**—do not launch a new browser for each script.
+
+## Enhanced Context Awareness
+- Implement a more sophisticated context awareness mechanism to better understand the project's current state and priorities.
+- Add rules to prioritize specific files or sections within files based on the project's phase or specific tasks.
+- Introduce a mechanism to dynamically update the context based on recent changes or commits in the repository.
+
+## Integration with External Knowledge Sources
+- Integrate with external knowledge sources such as documentation websites, coding standards repositories, or API references.
+- Fetch and incorporate relevant information from these sources to provide more accurate and up-to-date guidance.
+- Periodically update the Memory Bank with new information from these external sources.
+
+## Advanced Learning Algorithms
+- Implement advanced machine learning algorithms to improve understanding and adaptation to the project's specific needs.
+- Use natural language processing (NLP) techniques to better interpret and respond to user queries.
+- Introduce a feedback loop where Cline learns from user interactions and continuously improves its recommendations and guidance.
