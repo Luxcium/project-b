@@ -10,6 +10,6 @@
     { "text": "Generate tests with full TypeScript type safety." }
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
-    { "text": "Follow conventional commits format (feat, fix, refactor, docs)." }
+    { "text": "Follow conventional commits format (feat, fix, refactor, docs), with emojis." }
   ]
 }

@@ -25,10 +25,12 @@ The following core prompt files are included in the `.github/prompts/` directory
 4. Enter your request.
 
 **Example**:
-```
+
+```md
 @workspace /fix testing
 📎 Attached: testing-strategies.prompt.md
 ```
+
 Copilot will now fix your tests according to **your testing rules**.
 
 #### Using Prompt Files in Copilot Edits
@@ -41,10 +43,12 @@ For **multi-file editing**:
 4. Describe the edit → Copilot follows the **rules inside the prompt file**.
 
 **Example**:
-```
+
+```md
 📎 Attached: nextjs-api-standards.prompt.md
 📎 Attached: error-handling-and-logging.prompt.md
 ```
+
 Copilot will now **refactor API endpoints & apply structured error handling**.
 
 ### Automating Prompt File Usage
@@ -57,19 +61,24 @@ Instead of manually attaching prompts every time, you can **auto-apply them** in
 # Copilot Custom Instructions
 
 ## TypeScript Best Practices
+
 Always generate strongly typed TypeScript code, following `strict: true`.
 
 ## Next.js API Standards
+
 Use Next.js **server actions** instead of legacy `api/` routes.
 
 ## React Components
+
 - Always use **functional components** & hooks.
 - Follow **Tailwind CSS** for styling.
 - Avoid inline styles.
 
 ## Security Practices
+
 - Validate API input using **Zod** or **Yup**.
 - Enforce **JWT authentication**.
 - Use **parameterized queries** to prevent SQL Injection.
 ```
+
 Copilot will now follow these rules automatically.
