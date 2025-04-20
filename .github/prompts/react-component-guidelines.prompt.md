@@ -1,3 +1,14 @@
+<!--
+  id: react-component-guidelines
+  version: 1.0
+  last-updated: 2025-04-19
+  authors: [luxcium]
+  tags: [typescript,react,component,tailwindcss]
+  schema: prompt-template-v1
+-->
+
+
+
 # React Component Guidelines
 
 ## Guidelines:

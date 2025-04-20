@@ -1,3 +1,12 @@
+<!--
+id: puppeteer-usage-guidelines
+  version: 1.0
+  last-updated: 2025-04-19
+  authors: [luxcium]
+  tags: [typescript,puppeteer,web-scraping]
+  schema: prompt-template-v1
+-->
+
 # Puppeteer Usage Guidelines
 
 ## Guidelines:

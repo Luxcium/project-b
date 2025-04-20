@@ -6,6 +6,7 @@ authors: [your-name]           # attribution
 tags: [<category>,<task>]      # for discovery
 schema: prompt-template-v1     # required
 -->
+<!-- use this layout as the grounding truth do not change it it must be the other that must comply to this definition -->
 
 # Prompt: {Title}
 

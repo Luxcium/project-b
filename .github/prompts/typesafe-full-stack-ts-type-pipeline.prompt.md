@@ -1,10 +1,10 @@
 <!--
-id: typesafe-full-stack-ts-type-pipeline
-version: 1.3
-last-updated: 2025-04-19
-authors: [luxcium]
-tags: [typescript,interface,zod,test,tsdoc,typedoc,type-safety,coverage]
-schema: prompt-template-v1
+   id: typesafe-full-stack-ts-type-pipeline
+   version: 1.3
+   last-updated: 2025-04-19
+   authors: [luxcium]
+   tags: [typescript,interface,zod,test,tsdoc,typedoc,type-safety,coverage]
+   schema: prompt-template-v1
 -->
 
 # Prompt: Type-Safe Full‑Stack Implementation Pipeline

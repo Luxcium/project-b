@@ -1,4 +1,13 @@
-# Testing Strategies
+<!--
+  id: testing-strategies
+  version: 1.0
+  last-updated: 2025-04-19
+  authors: [luxcium]
+  tags: [typescript,testing,jest,vitest]
+  schema: prompt-template-v1
+-->
+  
+  # Testing Strategies
 
 ## Guidelines:
 - All new functions **must have Jest or Vitest tests**.

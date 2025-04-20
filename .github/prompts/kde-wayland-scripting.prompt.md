@@ -1,3 +1,13 @@
+<!-- 
+  id: kde-wayland-scripting-guidelines
+  version: 1.0
+  last-updated: 2025-04-19
+  authors: [luxcium]
+  tags: [kde,wayland,scripting,plasma]
+  schema: prompt-template-v1
+-->
+
+
 # KDE Wayland Scripting Guidelines
 
 ## Guidelines:
