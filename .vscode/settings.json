@@ -2,7 +2,9 @@
   "github.copilot.chat.codeGeneration.instructions": [
     { "text": "Always use Server Actions instead of API routes." },
     { "text": "Ensure TypeScript functions have explicit return types." },
-    { "text": "Only fetch data in server components or Next.js route handlers." }
+    {
+      "text": "Only fetch data in server components or Next.js route handlers."
+    }
   ],
   "github.copilot.chat.codeGeneration.useInstructionFiles": true,
   "github.copilot.chat.testGeneration.instructions": [
@@ -10,6 +12,10 @@
     { "text": "Generate tests with full TypeScript type safety." }
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
-    { "text": "Follow conventional commits format (feat, fix, refactor, docs), with emojis." }
-  ]
+    {
+      "text": "Follow conventional commits format (feat, fix, refactor, docs), with emojis."
+    }
+  ],
+
+  "chat.promptFiles": true,
 }
